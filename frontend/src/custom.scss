@@ -1,0 +1,109 @@
+$primary: #8ab5e2;
+$secondary: #7f8c8d;
+$success: #2ecc71;
+$info: #74b9ff;
+$warning: #fffb98;
+$danger: #e74c3c;
+$dark: #496793;
+$light: #f8f9fa;
+
+$color-contrast-dark: #212529;
+$color-contrast-light: #ffffff;
+
+@import "bootstrap/scss/bootstrap";
+
+.btn-primary {
+  background-color: #8ab5e2;
+  border-color: #8ab5e2;
+  color: #ffffff;
+  box-shadow: 0 2px 8px rgba(138, 181, 226, 0.32);
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #78a8dc;
+    border-color: #78a8dc;
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(138, 181, 226, 0.45);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    background-color: #699cd1;
+    border-color: #699cd1;
+    transform: translateY(0);
+    box-shadow: 0 1px 4px rgba(138, 181, 226, 0.25);
+  }
+
+  &:disabled, &.disabled {
+    background-color: #bcd4f0;
+    border-color: #bcd4f0;
+    color: #ffffff;
+    box-shadow: none;
+    transform: none;
+  }
+}
+
+.btn-outline-primary {
+  border-color: #8ab5e2;
+  color: #5d90c7;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #8ab5e2;
+    border-color: #8ab5e2;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(138, 181, 226, 0.35);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    background-color: #78a8dc;
+    border-color: #78a8dc;
+    color: #ffffff;
+    transform: translateY(0);
+  }
+}
+
+.btn-secondary {
+  background-color: #dfe9f3;
+  border-color: #bcd4f0;
+  color: #496793;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #496793;
+    border-color: #496793;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(73, 103, 147, 0.35);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    background-color: #3b5579;
+    border-color: #3b5579;
+    color: #ffffff;
+    transform: translateY(0);
+  }
+}
+
+.btn-outline-secondary {
+  transition: all 0.2s ease-in-out;
+
+  &:hover, &:focus {
+    background-color: #dfe9f3;
+    border-color: #8ab5e2;
+    color: #496793;
+    box-shadow: 0 4px 12px rgba(138, 181, 226, 0.3);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    background-color: #cfe0f1;
+    border-color: #78a8dc;
+    color: #496793;
+    transform: translateY(0);
+  }
+}
