@@ -20,7 +20,3 @@ AI-powered store management app — inventory, sales, suppliers, and 4 AI featur
 3. **Open in browser**:
    - Backend (Django admin): http://localhost:8000/admin
    - Frontend (Vite dev server): http://localhost:5173
-
-## Project Status
-
-Currently in **Phase 0: Project Bootstrap**. See `C:\Users\MSI\.claude\plans\full-vivid-orbit.md` for the full implementation plan.
